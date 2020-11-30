@@ -1,0 +1,36 @@
+@import 'variables.scss';
+
+.main-nav {
+
+  @media(min-width: $tablet-width) {
+    width: 700px;
+    margin: 0 auto;
+  }
+
+  @media(min-width: $desktop-width) {
+    width: 1140px;
+    margin: 0 auto;
+  }
+}
+
+.main-nav a {
+  color: #000;
+  text-decoration: none;
+}
+
+.main-nav__list {
+  display: none;
+
+  @media(min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.main-nav__item {
+  list-style-type: none;
+}
+
+.main-nav__burger {
+
+}

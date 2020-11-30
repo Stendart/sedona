@@ -1,0 +1,54 @@
+@import 'variables.scss';
+
+.advantages__list {
+  padding: 0;
+}
+
+.advantages__item {
+  list-style-type: none;
+}
+
+.advantages__card-wrap {
+  display: flex;
+  flex-direction: column;
+
+  @media(min-width: $tablet-width) {
+    flex-direction: row;
+  }
+
+  @media(min-width: $tablet-width) {
+
+  }
+}
+
+.advantages__card-wrap-revers {
+  & .advantages_img {
+    @media(min-width: $tablet-width) {
+      order: -1;
+    }
+
+  }
+}
+
+.advantages__card {
+  text-align: center;
+  text-transform: uppercase;
+
+
+}
+
+.advantages__card-b {
+  background-color: #81B3D2;
+}
+
+.advantages_img {
+  width: 100%;
+}
+
+.advantages__list-wrapper {
+  background-color: #EEEEEE;
+  @media(min-width: $tablet-width) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

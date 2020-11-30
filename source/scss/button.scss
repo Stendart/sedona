@@ -1,0 +1,25 @@
+.btn {
+  display: block;
+
+  background: #81B3D2;
+  max-width: 100%;
+
+  text-decoration: none;
+  color: #fff;
+
+  padding: 15px 32px;
+
+
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  @media(min-width: $tablet-width) {
+    padding: 14px 120px;
+  }
+}

@@ -1,0 +1,35 @@
+@import 'variables.scss';
+
+.intro__img {
+  width: 100%;
+}
+
+
+.intro__text {
+  margin: 0 20px;
+
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #333333;
+
+  @media(min-width: $tablet-width) {
+    margin: 0 140px;
+  }
+
+  @media(min-width: $desktop-width) {
+    margin: 0 395px;
+  }
+}
+
+.intro__text--b {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 21px;
+}

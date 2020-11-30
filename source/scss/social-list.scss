@@ -1,0 +1,33 @@
+
+.social-list {
+  list-style-type: none;
+  padding: 0;
+
+  /*width: 40%;*/
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-list__item {
+  margin-right: 5px;
+}
+
+.social-list__btn_icon {
+  width:46px;
+  height: 48px;
+  position: relative;
+
+  background: linear-gradient(to bottom, #9ECCE8, #76B3DA);
+}
+
+
+.social-list__icon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  margin: auto;
+}

@@ -1,5 +1,29 @@
-// Начните писать стили здесь
-
-.main {
-	color: yellow;
+.visualy-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
+
+body {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+@import 'header.scss';
+@import 'intro.scss';
+@import 'main-nav.scss';
+@import 'advantages.scss';
+@import 'advertising-list.scss';
+@import 'about-us.scss';
+@import 'footer.scss';
+@import 'social-list.scss';
+
+

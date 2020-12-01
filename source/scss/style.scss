@@ -1,3 +1,13 @@
+@import 'header.scss';
+@import 'intro.scss';
+@import 'main-nav.scss';
+@import 'advantages.scss';
+@import 'advertising-list.scss';
+@import 'about-us.scss';
+@import 'footer.scss';
+@import 'social-list.scss';
+
+
 .visualy-hidden {
   position: absolute;
   width: 1px;
@@ -16,14 +26,3 @@ body {
 p {
   margin: 0;
 }
-
-@import 'header.scss';
-@import 'intro.scss';
-@import 'main-nav.scss';
-@import 'advantages.scss';
-@import 'advertising-list.scss';
-@import 'about-us.scss';
-@import 'footer.scss';
-@import 'social-list.scss';
-
-

@@ -9,9 +9,11 @@
   <body>
   	<header class="header">
   		<nav class="main-nav">
-            <button class="main-nav__burger"><img src="./img/icon-menu.svg">Burger-menu</button>
+            <button class="main-nav__burger js-burger main-nav__burger--closed"><!--<img src="./img/icon-menu.svg">-->
+                <span class="visualy-hidden">Burger-menu</span>
+            </button>
   			<ul class="main-nav__list">
-  				<li class="main-nav__item"><a href="#">Главная</a></li>
+  				<li class="main-nav__item"><a>Главная</a></li>
   				<li class="main-nav__item"><a href="#">Фото и видео</a></li>
   				<li class="main-nav__item"><a href="#">Форма отзыва</a></li>
   				<li class="main-nav__item"><a href="#">Академия</a></li>
@@ -25,7 +27,7 @@
     	<section class="intro">
     		<h2 class="visualy-hidden">Добро пожаловать в великолепную Седону</h2>
     		<div class="main__intro intro__background">
-    			<img class="intro__img" src="./img/back-mobile.jpg">
+    			<img class="intro__img" src="./img/text-index.svg">
     		</div>
     		<p class="intro__text intro__text--b">СЕДОНА — небольшой  городок в АРИЗОНЕ, заслуживающий большего!  </p>
     		<p class="intro__text">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
@@ -134,5 +136,6 @@
     	</ul>
     	<p class="copyright">Разработанно</p>
     </footer>
+    <script type="text/javascript" src="./js/burger.js"></script>
   </body>
 </html>

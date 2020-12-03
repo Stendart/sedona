@@ -1,14 +1,32 @@
 @import 'variables.scss';
 
 .advertising-list {
+  /*padding: 0;*/
+  list-style-type: none;
+
   display: flex;
   flex-direction: column;
 
   @media(min-width: $tablet-width) {
-    flex-direction: row;
+    /*display: grid;
+    grid-template-columns: 1fr 1fr 1fr;*/
   }
 
   @media(min-width: $tablet-width) {
 
+  }
+}
+
+.advertising-list__term {
+  margin-left: 30px;
+  &:before {
+    content: '';
+    display: inline-block;
+    width:20px;
+    height:20px;
+    background-image: url('../img/icon-house.svg');
+    background-size: cover;
+
+    margin-right: 20px;
   }
 }

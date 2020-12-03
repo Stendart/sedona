@@ -34,11 +34,21 @@
   text-align: center;
   text-transform: uppercase;
 
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+
+  padding-top: 55px;
+  padding-bottom: 40px
 
 }
 
 .advantages__card-b {
   background-color: #81B3D2;
+
+  color: $color-white;
 }
 
 .advantages_img {
@@ -51,4 +61,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+}
+
+.advantages__advertising-list {
+  padding: 0 20px 0 20px;
 }

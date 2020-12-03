@@ -8,7 +8,7 @@
   max-width: 100%;
   height: 390px;
 
- padding-top: 1px;
+  padding-top: 1px;
 }
 
 .intro__img {
@@ -28,7 +28,7 @@
   font-family: PT Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 26px;
 
   text-align: center;
@@ -49,4 +49,11 @@
   font-weight: 700;
   font-style: normal;
   font-size: 21px;
+
+  margin-top: 30px;
+}
+
+.intro__text--s {
+  margin-top: 40px;
+  color: #333333;
 }

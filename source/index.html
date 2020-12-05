@@ -44,7 +44,7 @@
                     <div class="advantages__card-wrap">
                         <div class="advantages__card advantages__card-b">
                             <p>НАСТОЯЩИЙ ГОРОДОК  </p>
-                            <p>— №1 —  </p>
+                            <p class="advantages__card-number">— №1 —  </p>
                             <p>СЕДОНА НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
                         </div>
                         <img class="advantages_img" src="./img/photo-city@1x 1.jpg">
@@ -52,21 +52,21 @@
 
     				<ul class="advantages__advertising-list  advertising-list">
     					<li class="advertising-list__item">
-    						<dl>
+    						<dl class="advertising-list__item-block">
     							<dt class="advertising-list__term">Жилье</dt>
-    							<dd>Рекомендуем пожить в настоящем мотеле, все как в кино!</dd>
+    							<dd class="advertising-list__descript">Рекомендуем пожить в настоящем мотеле, все как в кино!</dd>
     						</dl>
     					</li>
-    					<li class="advantages__advertising-item">
-    						<dl>
+    					<li class="advertising-list__item">
+    						<dl class="advertising-list__item-block">
     							<dt class="advertising-list__term">Сувениры</dt>
-    							<dd>Не только китайского, но и местного производства!</dd>
+    							<dd class="advertising-list__descript">Не только китайского, но и местного производства!</dd>
     						</dl>
     					</li>
-    					<li class="advantages__advertising-item">
-    						<dl>
+    					<li class="advertising-list__item">
+    						<dl class="advertising-list__item-block">
     							<dt class="advertising-list__term">Еда</dt>
-    							<dd>Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</dd>
+    							<dd class="advertising-list__descript">Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</dd>
     						</dl>
     					</li>
     				</ul>
@@ -75,7 +75,7 @@
                     <div class="advantages__card-wrap advantages__card-wrap-revers">
                         <div class="advantages__card advantages__card-b">
                             <p>ТАМ ЕСТЬ Мост дьявола  </p>
-                            <p>— №2 —  </p>
+                            <p class="advantages__card-number">— №2 —  </p>
                             <p>Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
                         </div>
                         <img class="advantages_img" src="./img/photo-bridge@1x 1.jpg">
@@ -85,21 +85,21 @@
                     <li class="advantages__item">
                         <div class="advantages__card">
                             <p>НЕБОЛЬШАЯ ПЛОЩАДЬ  </p>
-                            <p>— №3 —  </p>
+                            <p class="advantages__card-number">— №3 —  </p>
                             <p>ВСЕ интересные места находятся очень близко</p>
                         </div>
                     </li>
-                    <li class="advantages__item">
+                    <li class="advantages__item advantages__item-line">
                         <div class="advantages__card">
                             <p>КРАСИВАЯ ДОРОГА  </p>
-                            <p>— №4 —  </p>
-                            <p>ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем НЕ СКУЧНО!</p>
+                            <p class="advantages__card-number">— №4 —  </p>
+                            <p>ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА  совсем НЕ СКУЧНО!</p>
                         </div>
                     </li>
-                    <li class="advantages__item">
+                    <li class="advantages__item advantages__item-line">
                         <div class="advantages__card">
                             <p>МАЛО ТУРИСТОВ  </p>
-                            <p>— №5 —  </p>
+                            <p class="advantages__card-number">— №5 —  </p>
                             <p>Большинство едет в гранд каньон  и толпится там</p>
                         </div>
                     </li>
@@ -107,15 +107,18 @@
     		</ul>
     	</section>
     	<section class="about-us">
-    		<h2 class="visualy-hidden">О нас</h2>
-    		<p class="about-us__text about-us__text-title">ЗАИНТЕРЕСОВАЛИСЬ?  </p>
-    		<p class="about-us__text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
-    		<a class="about-us__find btn" href="">НАЙТИ гостиницу</a>
+            <div class="about-us__text-wrapper">
+                <h2 class="visualy-hidden">О нас</h2>
+                <p class="about-us__text about-us__text-title">ЗАИНТЕРЕСОВАЛИСЬ?  </p>
+                <p class="about-us__text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие  предложения гостиниц в седоне</p>
+                <a class="about-us__find btn" href="">НАЙТИ гостиницу</a>
+            </div>
+
     		<img class="about-us__map" src="./img/map-mobile.jpg">
     	</section>
     </main>
     <footer class="footer">
-    	<p class="hashtag">#visitSEDONA</p>
+    	<p class="footer__hashtag">#visitSEDONA</p>
     	<ul class="footer__social social-list">
     		<li class="social-list__item">
                 <a class="social-list__link social-list__link--twit" href="">
@@ -139,7 +142,7 @@
                 </a>
             </li>
     	</ul>
-    	<p class="copyright">Разработанно</p>
+    	<p class="footer__copyright copyright">Разработанно</p>
     </footer>
     <script type="text/javascript" src="./js/burger.js"></script>
   </body>

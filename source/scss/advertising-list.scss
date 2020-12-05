@@ -4,8 +4,10 @@
   /*padding: 0;*/
   list-style-type: none;
 
-  display: flex;
-  flex-direction: column;
+  @media(min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-between;
+  }
 
   @media(min-width: $tablet-width) {
     /*display: grid;
@@ -17,16 +19,69 @@
   }
 }
 
+.advertising-list__item-block {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  @media(min-width: $tablet-width) {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+}
+
 .advertising-list__term {
-  margin-left: 30px;
+  display: flex;
+  align-items:center;
+
+  margin-bottom: 20px;
+
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+
   &:before {
     content: '';
     display: inline-block;
-    width:20px;
-    height:20px;
+    width:39px;
+    height:37px;
     background-image: url('../img/icon-house.svg');
     background-size: cover;
 
     margin-right: 20px;
+  }
+
+  @media(min-width: $tablet-width) {
+    flex-direction: column;
+
+    &:before {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.advertising-list__descript {
+  margin: 0;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.advertising-list__item {
+  @media(min-width: $tablet-width) {
+    max-width: 33.33%;
+
+    &:nth-child(2) {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
   }
 }

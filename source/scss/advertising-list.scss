@@ -52,6 +52,11 @@
     background-size: cover;
 
     margin-right: 20px;
+
+    @media(min-width: $tablet-width) {
+      width:75px;
+      height:72px;
+    }
   }
 
   @media(min-width: $tablet-width) {

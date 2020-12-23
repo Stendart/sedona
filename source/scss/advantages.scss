@@ -62,13 +62,16 @@
   padding-right: 20px;
 
 
-
 }
 
 .advantages__card-b {
   background-color: #81B3D2;
 
   color: $color-white;
+
+  @media(min-width: $tablet-width) {
+    max-width: 33.333%;
+  }
 }
 
 .advantages__card-number {
@@ -77,6 +80,17 @@
 
 .advantages_img {
   width: 100%;
+  height: 256px;
+
+  & img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  @media(min-width: $tablet-width) {
+    height: auto;
+  }
 }
 
 .advantages__list-wrapper {

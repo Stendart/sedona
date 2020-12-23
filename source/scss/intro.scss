@@ -9,6 +9,11 @@
   height: 390px;
 
   padding-top: 1px;
+
+  @media(min-width: $tablet-width) {
+    background-image: url("../img/back-desktop.jpg");
+    height: 518px;
+  }
 }
 
 .intro__img {

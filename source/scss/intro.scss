@@ -9,6 +9,8 @@
   height: 390px;
 
   padding-top: 1px;
+  position: relative;
+  z-index: -1;
 
   @media(min-width: $tablet-width) {
     background-image: url("../img/back-desktop.jpg");
@@ -23,7 +25,13 @@
   margin-right: auto;
 
   margin-top: 90px;
+}
 
+.intro__triangle {
+  position: absolute;
+  bottom: -1px;
+
+  width: 100%;
 }
 
 

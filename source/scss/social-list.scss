@@ -19,6 +19,18 @@
   position: relative;
 
   background: linear-gradient(to bottom, #9ECCE8, #76B3DA);
+
+  &:hover {
+    background: #669EC0;
+  }
+
+  &:active {
+    background: #5496BD;
+
+    & .icon {
+      opacity: 0.3;
+    }
+  }
 }
 
 
@@ -30,4 +42,8 @@
   right: 0;
   display: block;
   margin: auto;
+}
+
+.icon {
+
 }

@@ -46,11 +46,34 @@
   list-style-type: none;
   text-align: center;
 
+
   @media(max-width: $mobile-width) {
     margin-bottom: 1px;
     background: #81B3D2;
     box-shadow: 0px 1px 0px rgba(1, 1, 1, 0.2),
     inset 0px 1px 0px rgba(255, 255, 255, 0.2);
+
+    &:hover {
+      background: #669EC0;
+    }
+
+    &:active {
+      background: #5496BD;
+      color: rgba(84, 150, 189, .3);
+    }
+  }
+}
+
+.main-nav__item a[href]{
+  @media(min-width: $tablet-width) {
+    &:hover {
+      color: #81B3D2;
+    }
+
+    &:active {
+      color: $color-black;
+      opacity: 0.3;
+    }
   }
 }
 

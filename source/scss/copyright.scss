@@ -1,0 +1,23 @@
+.copyright {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+
+  display: flex;
+  align-items: center;
+
+  &:after {
+    content: "";
+    display: block;
+    margin-left: 10px;
+    width: 27px;
+    height: 34px;
+    background-image: url('../img/htmlacademy.svg');
+  }
+}
+
+

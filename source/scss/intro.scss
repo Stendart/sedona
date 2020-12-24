@@ -1,0 +1,72 @@
+@import 'variables.scss';
+
+
+.intro__background {
+  background-image: url("../img/back-mobile.jpg");
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+  height: 390px;
+
+  padding-top: 1px;
+  position: relative;
+  z-index: -1;
+
+  @media(min-width: $tablet-width) {
+    background-image: url("../img/back-desktop.jpg");
+    height: 518px;
+  }
+}
+
+.intro__img {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 90px;
+}
+
+.intro__triangle {
+  position: absolute;
+  bottom: -1px;
+
+  width: 100%;
+}
+
+
+.intro__text {
+  margin: 0 20px;
+
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #333333;
+
+  @media(min-width: $tablet-width) {
+    margin: 0 140px;
+  }
+
+  @media(min-width: $desktop-width) {
+    margin: 0 395px;
+  }
+}
+
+.intro__text--b {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 21px;
+
+  margin-top: 30px;
+}
+
+.intro__text--s {
+  margin-top: 40px;
+  color: #333333;
+}

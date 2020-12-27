@@ -34,7 +34,11 @@
     	<section class="intro">
     		<h2 class="visualy-hidden">Добро пожаловать в великолепную Седону</h2>
     		<div class="main__intro intro__background">
-                <img class="intro__img" src="./img/text-index.svg">
+
+                <picture>
+                    <source srcset="./img/text-index-desktop.svg" media="(min-width: 768px)"/>
+                    <img class="intro__img" src="./img/text-index.svg">
+                </picture>
                 <picture>
                     <source srcset="./img/intro-triangle-desctop.svg" media="(min-width: 1200px)"/>
                     <source srcset="./img/intro-triangle.svg" media="(min-width: 768px)"/>
@@ -64,19 +68,19 @@
     				<ul class="advantages__advertising-list  advertising-list">
     					<li class="advertising-list__item">
     						<dl class="advertising-list__item-block">
-    							<dt class="advertising-list__term">Жилье</dt>
+    							<dt class="advertising-list__term advertising-list__term--house">Жилье</dt>
     							<dd class="advertising-list__descript">Рекомендуем пожить в настоящем мотеле, все как в кино!</dd>
     						</dl>
     					</li>
     					<li class="advertising-list__item">
     						<dl class="advertising-list__item-block">
-    							<dt class="advertising-list__term">Сувениры</dt>
+    							<dt class="advertising-list__term advertising-list__term--souvenirs">Сувениры</dt>
     							<dd class="advertising-list__descript">Не только китайского, но и местного производства!</dd>
     						</dl>
     					</li>
     					<li class="advertising-list__item">
     						<dl class="advertising-list__item-block">
-    							<dt class="advertising-list__term">Еда</dt>
+    							<dt class="advertising-list__term advertising-list__term--food">Еда</dt>
     							<dd class="advertising-list__descript">Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</dd>
     						</dl>
     					</li>
